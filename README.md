@@ -1,8 +1,12 @@
-# Trustworthy Large Language Models
+# Introduction to Computer Architecture
 
-### Course Code: ELL8299/COL8383
+### Course Code: ELL7282/ELL782
 ### Offering Semester: Semester-I, 2026-27 
-Large Language Models (LLMs) are rapidly becoming the foundation of modern AI systems, powering applications ranging from conversational assistants and code generation to scientific discovery and autonomous agents. While recent advances have dramatically improved their capabilities, deploying these models responsibly requires addressing fundamental challenges related to privacy, security, robustness, fairness, reliability, and interpretability. This advanced course provides a comprehensive introduction to the principles, techniques, and emerging research behind trustworthy and responsible LLMs. Beginning with the foundations of transformer-based language models, instruction tuning, alignment, and decoding strategies, students will develop the background necessary to understand how modern LLMs are trained and deployed.<br/><br/>This course then explores the key challenges that arise in real-world LLM systems, including privacy leakage, adversarial attacks, jailbreaking, hallucinations, uncertainty estimation, algorithmic bias, watermarking, and mechanistic interpretability. Alongside state-of-the-art defense mechanisms such as differential privacy, robust training, retrieval-augmented generation, verification, calibration, and machine unlearning, students will examine recent research papers, benchmarks, and practical techniques for building trustworthy AI systems. By the end of the course, students will have a deep understanding of both the capabilities and limitations of contemporary language models, equipping them to critically evaluate, design, and develop the next generation of reliable, secure, and accountable AI systems.<br/><br/>Students should have a background in Machine Learning and be proficient in Python programming. At least some basic knowledge of Deep Learning and NLP is preferred. Through assignments and a course project, students will acquire the skills necessary to design, implement, and understand LLMs using the PyTorch framework.
+This course introduces the core concepts of computer architecture, emphasizing the interface between software and hardware and the execution of programs on modern computer systems. Topics include the language of bits, instruction set architectures, assembly language, computer arithmetic, processor organization, and memory systems.
+
+The course covers key architectural design principles such as pipelining, registers, memory hierarchy, and basic performance considerations, enabling students to understand how architectural decisions influence program behaviour. The course is intended for undergraduate students with prior exposure to programming and basic digital logic.
+
+
 
 ### Pre-requisites
 
