@@ -4,7 +4,7 @@ course_name: "Introduction to Computer Architecture"
 course_description: "This course introduces the core concepts of computer architecture, emphasizing the interface between software and hardware and the execution of programs on modern computer systems. Topics include the language of bits, instruction set architectures, assembly language, computer arithmetic, processor organization, and memory systems. The course covers key architectural design principles such as pipelining, registers, memory hierarchy, and basic performance considerations, enabling students to understand how architectural decisions influence program behaviour. The course is intended for undergraduate students with prior exposure to programming and basic digital logic."
 course_semester: "Semester I, 2026-27"
 
-baseurl: "/ELL8299-2601" # the subpath of your site, e.g. /blog/
+baseurl: "/ELL7282-2601" # the subpath of your site, e.g. /blog/
 url: "http://lcs2-iitd.github.io/" # the base hostname & protocol for your site
 
 schoolname: "IIT Delhi"
