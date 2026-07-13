@@ -3,7 +3,7 @@ instructors:
     profile_pic: /_images/pp/tanmoy.png
     webpage: https://tanmoychak.com
 
-  instructors_row_split: 3
+instructors_row_split: 3
     
 teaching_assistants:
   - name: Indraayudh
