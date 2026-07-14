@@ -11,17 +11,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon"
-    href="https://raw.githubusercontent.com/lcs2-iitd/ELL881-AIL821-2401/refs/heads/main/_images/logo.png">
+    href="/ELL7282-2601/_images/logo.png">
 
-  <!--   <title> Lectures - ELL8299/COL8383 / Semester I, 2026-27 </title> -->
+  <!--   <title> Lectures - ELL7282/ELL782 / Semester I, 2026-27 </title> -->
   <title>ELL7282/ELL782 | LCS2-IITD</title>
   <meta name="description"
     content="Lectures - Introduction to Computer Architecture / Semester I, 2026-27">
 
   <link rel="stylesheet" href="/ELL7282-2601/_css/main.css">
-  <link rel="canonical" href="http://localhost:4000/ELL8299-2601/lectures/">
+  <link rel="canonical" href="https://lcs2-iitd.github.io/ELL7282-2601/lectures/">
   <link rel="alternate" type="application/rss+xml"
-    title="Trustworthy Large Language Models / Semester I, 2026-27 - IIT Delhi" href="http://localhost:4000/ELL8299-2601 /feed.xml" />
+    title="Introduction to Computer Architecture / Semester I, 2026-27 - IIT Delhi" href="https://lcs2-iitd.github.io/ELL7282-2601/feed.xml" />
   <link rel='stylesheet' id='open-sans-css'
     href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4'
     type='text/css' media='all' />
@@ -45,7 +45,7 @@
           <td><img width="75" src="/ELL7282-2601/_images/logo.png" valign="middle"></td>
           <td style="padding-left:10px;"><a class="schoolname" style="font-size: 15px;" class="site-title" href="https://www.lcs2.in">IIT Delhi</a>
           <br/>
-          <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><a href="/ELL8299-2601/" title="ELL8299/COL8383 / Semester I, 2026-27 - IIT Delhi"><b>ELL8299/COL8383</a></b></span>
+          <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><a href="/ELL7282-2601/" title="ELL7282/ELL782 / Semester I, 2026-27 - IIT Delhi"><b>ELL7282/ELL782</b></a></span>
           <br/>
           <span class="coursesemeter" style="font-size: 12px;font-weight: bold;margin-top: 10px;display: block;">Semester I, 2026-27</span>
           </td>
@@ -113,7 +113,7 @@
   </div>
 
   <!-- div class="header-texture" style="height:100%; z-index: 0; position: absolute; top:0; right: 0; left: 0; 
-  background-image: url('/ELL8299-2601/_images/pattern.png');" / -->
+  background-image: url('/ELL7282-2601/_images/pattern.png');" / -->
 
 </header>
 
@@ -132,130 +132,386 @@
 
 <h2 id="tentative-topics">Tentative Topics</h2>
 
-<ul>
-  <li><strong>Foundations of Computer Architecture</strong>
+<ul class="topic-hierarchy">
+  <li><strong>1. Foundations of Computer Architecture</strong>
     <ul>
-      <li>Relationship between software and hardware</li>
-      <li>Program execution on hardware</li>
-      <li>Role of instruction sets</li>
-      <li>Instruction set architecture concepts</li>
-      <li>SimpleRisc ISA</li>
-      <li>Load–store architecture</li>
-      <li>Instruction categories</li>
+      <li><strong>Software–Hardware Interface</strong>
+        <ul>
+          <li>Relationship between software and hardware</li>
+          <li>Program execution on hardware</li>
+          <li>Role of instruction sets</li>
+        </ul>
+      </li>
+      <li><strong>Instruction Set Architecture</strong>
+        <ul>
+          <li>Instruction set architecture concepts</li>
+          <li>SimpleRisc ISA</li>
+          <li>Load–store architecture</li>
+          <li>Instruction categories</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Privacy in Large Language Models</strong>
+
+  <li><strong>2. Data Representation</strong>
     <ul>
-      <li>Privacy fundamentals</li>
-      <li>Text sanitization</li>
-      <li>Memorization and data extraction</li>
-      <li>Membership inference attacks</li>
-      <li>Prompt and in-context learning leakage</li>
-      <li>Prompt injection attacks</li>
-      <li>Differential privacy</li>
-      <li>Privacy-preserving in-context learning</li>
-      <li>Synthetic data generation</li>
-      <li>Federated learning</li>
-      <li>Machine unlearning</li>
-      <li>Trusted execution environments and cryptographic techniques</li>
+      <li><strong>Digital Information</strong>
+        <ul>
+          <li>Bits and binary logic</li>
+          <li>Boolean algebra</li>
+          <li>Binary number systems</li>
+        </ul>
+      </li>
+      <li><strong>Integer Representation</strong>
+        <ul>
+          <li>Unsigned and signed integers</li>
+          <li>Integer representation formats</li>
+          <li>Integer overflow</li>
+        </ul>
+      </li>
+      <li><strong>Floating-Point Representation</strong>
+        <ul>
+          <li>Floating-point formats</li>
+          <li>Range and precision</li>
+          <li>Floating-point overflow</li>
+        </ul>
+      </li>
+      <li><strong>Character Representation</strong>
+        <ul>
+          <li>Character encodings</li>
+          <li>Binary representation of text</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Security and Robustness</strong>
+
+  <li><strong>3. Assembly Language and Machine Instructions</strong>
     <ul>
-      <li>Adversarial attacks in continuous and discrete spaces</li>
-      <li>Gradient-based discrete optimization</li>
-      <li>Jailbreaking techniques</li>
-      <li>Transferability of adversarial attacks</li>
-      <li>Safety training failures</li>
-      <li>Training data poisoning</li>
-      <li>Alignment faking</li>
-      <li>Evaluation awareness</li>
-      <li>Chain-of-thought faithfulness</li>
-      <li>Indirect prompt injection</li>
-      <li>Memory poisoning in agentic systems</li>
-      <li>Monitoring and verification</li>
-      <li>Automated red teaming</li>
-      <li>Policy languages and compositional verification</li>
+      <li><strong>Assembly-Language Fundamentals</strong>
+        <ul>
+          <li>Registers and register organization</li>
+          <li>Memory and memory organization</li>
+          <li>Assembly instruction syntax</li>
+        </ul>
+      </li>
+      <li><strong>Arithmetic and Logical Operations</strong>
+        <ul>
+          <li>Arithmetic instructions</li>
+          <li>Logical instructions</li>
+          <li>Register operations</li>
+          <li>Immediate operands and modifiers</li>
+        </ul>
+      </li>
+      <li><strong>Memory-Access Operations</strong>
+        <ul>
+          <li>Load and store instructions</li>
+          <li>Addressing modes</li>
+          <li>Register–memory interaction</li>
+        </ul>
+      </li>
+      <li><strong>Control Flow</strong>
+        <ul>
+          <li>Branch instructions</li>
+          <li>Conditional execution</li>
+          <li>Loops</li>
+          <li>Control structures in assembly</li>
+        </ul>
+      </li>
+      <li><strong>Functions and Procedures</strong>
+        <ul>
+          <li>Function calls and returns</li>
+          <li>Argument passing and return values</li>
+          <li>Register spilling</li>
+          <li>Stack organization</li>
+          <li>Activation records</li>
+        </ul>
+      </li>
+      <li><strong>Instruction Encoding</strong>
+        <ul>
+          <li>Opcodes and instruction fields</li>
+          <li>Register, immediate, and branch formats</li>
+          <li>32-bit machine-code representation</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Bias and Fairness</strong>
+
+  <li><strong>4. Digital Logic</strong>
     <ul>
-      <li>Foundations of fairness</li>
-      <li>Social and algorithmic bias</li>
-      <li>Fairness metrics and benchmarks</li>
-      <li>Bias in pre-training, tokenization, and RLHF</li>
-      <li>Debiasing techniques</li>
-      <li>Limitations of current approaches</li>
-      <li>Policy and governance considerations</li>
+      <li><strong>Transistor and CMOS Foundations</strong>
+        <ul>
+          <li>Transistors as switches</li>
+          <li>CMOS logic</li>
+          <li>Inverters, NAND gates, and NOR gates</li>
+        </ul>
+      </li>
+      <li><strong>Combinational Logic</strong>
+        <ul>
+          <li>Multiplexers and demultiplexers</li>
+          <li>Decoders and encoders</li>
+        </ul>
+      </li>
+      <li><strong>Sequential Logic</strong>
+        <ul>
+          <li>State in digital circuits</li>
+          <li>Clock signals and clocked circuits</li>
+          <li>State storage and transfer</li>
+        </ul>
+      </li>
+      <li><strong>Latches and Flip-Flops</strong>
+        <ul>
+          <li>SR and clocked latches</li>
+          <li>D and J-K flip-flops</li>
+          <li>Edge-triggered operation</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Watermarking</strong>
+
+  <li><strong>5. Computer Arithmetic</strong>
     <ul>
-      <li>Motivation and applications</li>
-      <li>Properties of effective watermarks</li>
-      <li>Formal problem formulation</li>
-      <li>Red–Green watermarking</li>
-      <li>Training-time and decoding-time watermarking</li>
-      <li>Threat models and attacks</li>
+      <li><strong>Basic Adders</strong>
+        <ul>
+          <li>Half adders</li>
+          <li>Full adders</li>
+        </ul>
+      </li>
+      <li><strong>Ripple-Carry Addition</strong>
+        <ul>
+          <li>Ripple-carry adders</li>
+          <li>Carry propagation</li>
+          <li>Delay analysis</li>
+        </ul>
+      </li>
+      <li><strong>Fast Addition</strong>
+        <ul>
+          <li>Carry-select adders</li>
+          <li>Carry-lookahead adders</li>
+          <li>Generate and propagate logic</li>
+          <li>Parallel and hierarchical carry computation</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Hallucination and Factuality</strong>
+
+  <li><strong>6. Memory Circuit Design</strong>
     <ul>
-      <li>Causes of hallucinations</li>
-      <li>Hallucination detection benchmarks</li>
-      <li>Evaluation metrics</li>
-      <li>Decoding-based mitigation</li>
-      <li>Post-hoc verification</li>
-      <li>Self-correction</li>
-      <li>Retrieval-Augmented Generation (RAG)</li>
+      <li><strong>SRAM</strong>
+        <ul>
+          <li>SRAM cells and arrays</li>
+          <li>SRAM read and write operations</li>
+        </ul>
+      </li>
+      <li><strong>DRAM</strong>
+        <ul>
+          <li>DRAM cells and arrays</li>
+          <li>DRAM read and write operations</li>
+          <li>Precharging and sensing</li>
+          <li>DRAM refresh</li>
+        </ul>
+      </li>
+      <li><strong>Content-Addressable Memory</strong>
+        <ul>
+          <li>CAM organization</li>
+          <li>Associative lookup</li>
+          <li>CAM arrays</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Uncertainty and Trustworthy Generation</strong>
+
+  <li><strong>7. Processor Design</strong>
     <ul>
-      <li>Confidence estimation and calibration</li>
-      <li>Self-knowledge in language models</li>
-      <li>Semantic uncertainty</li>
-      <li>Unsupported claim detection</li>
-      <li>Claim-level risk estimation</li>
-      <li>Abstention and deferral</li>
-      <li>Risk-controlled generation</li>
-      <li>Evidence grounding</li>
-      <li>Auditability and oversight</li>
-      <li>Grounded and governed LLM systems</li>
-      <li>LLM judges, RAG, multimodal systems, and AI agents</li>
+      <li><strong>Processor Stages</strong>
+        <ul>
+          <li>Instruction Fetch (IF)</li>
+          <li>Operand Fetch (OF)</li>
+          <li>Execute (EX)</li>
+          <li>Memory Access (MA)</li>
+          <li>Register Write-Back (RW)</li>
+        </ul>
+      </li>
+      <li><strong>Processor Datapath</strong>
+        <ul>
+          <li>Register file</li>
+          <li>Arithmetic logic unit</li>
+          <li>Instruction decoding</li>
+          <li>Memory-access path</li>
+          <li>Branch datapath</li>
+          <li>Data movement between stages</li>
+        </ul>
+      </li>
+      <li><strong>Processor Control Path</strong>
+        <ul>
+          <li>Control-signal generation</li>
+          <li>Datapath coordination</li>
+          <li>Stage-specific control</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Interpretability</strong>
+
+  <li><strong>8. Control-Unit Design</strong>
     <ul>
-      <li>Attention and feature attribution</li>
-      <li>Mechanistic interpretability</li>
-      <li>Probing methods</li>
-      <li>Logit Lens and Patchscopes</li>
-      <li>Activation patching</li>
-      <li>Neuron-level analysis</li>
-      <li>Circuits and causal abstraction</li>
-      <li>Polysemanticity</li>
-      <li>Linear representation hypothesis</li>
-      <li>Dictionary learning</li>
-      <li>Transcoders and cross-coders</li>
-      <li>Model diffing</li>
-      <li>Activation steering</li>
-      <li>Interpretability for alignment and safety</li>
+      <li><strong>Hardwired Control</strong>
+        <ul>
+          <li>Opcode and instruction-bit decoding</li>
+          <li>Combinational control logic</li>
+          <li>Control-signal generation</li>
+        </ul>
+      </li>
+      <li><strong>Microprogrammed Control</strong>
+        <ul>
+          <li>Microinstructions and microprograms</li>
+          <li>Microcontrol unit</li>
+          <li>Internal registers and shared datapath</li>
+        </ul>
+      </li>
+      <li><strong>Microassembly and Microcode</strong>
+        <ul>
+          <li>Microassembly language</li>
+          <li>Microinstruction control flow</li>
+          <li>Microcode for ALU, load/store, branch, call, and return instructions</li>
+        </ul>
+      </li>
+      <li><strong>Microcontrol-Unit Organization</strong>
+        <ul>
+          <li>Microprogram counter</li>
+          <li>Microinstruction memory and sequencing</li>
+          <li>Horizontal and vertical microprogramming</li>
+          <li>Microinstruction encoding</li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><strong>Emerging Research Directions</strong>
+
+  <li><strong>9. Instruction Pipelining</strong>
     <ul>
-      <li>Open challenges in trustworthy LLMs</li>
-      <li>Responsible deployment of foundation models</li>
-      <li>Future directions in safe, reliable, and accountable AI</li>
+      <li><strong>Pipeline Fundamentals</strong>
+        <ul>
+          <li>Overlapping instruction execution</li>
+          <li>Pipeline stages and registers</li>
+          <li>Pipeline throughput</li>
+        </ul>
+      </li>
+      <li><strong>Pipeline Hazards</strong>
+        <ul>
+          <li>Data and read-after-write hazards</li>
+          <li>Control hazards</li>
+          <li>Structural hazards</li>
+        </ul>
+      </li>
+      <li><strong>Software Hazard Handling</strong>
+        <ul>
+          <li>NOP insertion</li>
+          <li>Pipeline stalls</li>
+          <li>Instruction reordering</li>
+        </ul>
+      </li>
+      <li><strong>Hardware Hazard Handling</strong>
+        <ul>
+          <li>Pipeline interlocks</li>
+          <li>Stall and bubble insertion</li>
+          <li>Data forwarding and bypassing</li>
+        </ul>
+      </li>
+      <li><strong>Advanced Pipeline Issues</strong>
+        <ul>
+          <li>Load-use hazards</li>
+          <li>Branch penalties</li>
+          <li>Hazards not eliminated by forwarding</li>
+        </ul>
+      </li>
+      <li><strong>Pipeline Performance</strong>
+        <ul>
+          <li>Cycles per instruction and instructions per cycle</li>
+          <li>Clock frequency and stall rate</li>
+          <li>Pipeline depth</li>
+          <li>Pipeline depth–frequency trade-off</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li><strong>10. Memory Hierarchy</strong>
+    <ul>
+      <li><strong>Memory-System Trade-Offs</strong>
+        <ul>
+          <li>Latency and capacity</li>
+          <li>Area and power consumption</li>
+          <li>Cost and performance trade-offs</li>
+        </ul>
+      </li>
+      <li><strong>Locality</strong>
+        <ul>
+          <li>Temporal locality</li>
+          <li>Spatial locality</li>
+        </ul>
+      </li>
+      <li><strong>Cache Fundamentals</strong>
+        <ul>
+          <li>Cache hierarchy and cache blocks</li>
+          <li>Cache hits and misses</li>
+          <li>Cache lookup</li>
+        </ul>
+      </li>
+      <li><strong>Cache Organizations</strong>
+        <ul>
+          <li>Direct-mapped caches</li>
+          <li>Fully associative caches</li>
+          <li>Set-associative caches</li>
+        </ul>
+      </li>
+      <li><strong>Cache Read and Write Policies</strong>
+        <ul>
+          <li>Cache read and write operations</li>
+          <li>Write-through policy</li>
+          <li>Write-back policy</li>
+        </ul>
+      </li>
+      <li><strong>Cache Replacement Policies</strong>
+        <ul>
+          <li>Least Recently Used (LRU)</li>
+          <li>Pseudo-LRU</li>
+          <li>Replacement-candidate selection</li>
+        </ul>
+      </li>
+      <li><strong>Cache Performance</strong>
+        <ul>
+          <li>Hit rate and miss rate</li>
+          <li>Miss penalty</li>
+          <li>Average Memory Access Time (AMAT)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li><strong>11. Virtual Memory</strong>
+    <ul>
+      <li><strong>Address Spaces</strong>
+        <ul>
+          <li>Virtual and physical addresses</li>
+          <li>Virtual address space and physical memory</li>
+        </ul>
+      </li>
+      <li><strong>Address Translation</strong>
+        <ul>
+          <li>Virtual-to-physical translation</li>
+          <li>Page tables</li>
+        </ul>
+      </li>
+      <li><strong>Paging</strong>
+        <ul>
+          <li>Pages</li>
+          <li>Page-based memory management</li>
+          <li>Efficient use of physical memory</li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
 
-
-
 <ul id="archive">
-  
 </ul>
   </article>
 
