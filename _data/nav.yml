@@ -15,9 +15,13 @@ items:
   name: Assignments
   icon_class: fas fa-bullseye
 
-- url: /project/
-  name: Project
+- url: /tutorials/
+  name: Tutorials
   icon_class: fas fa-code
+
+- url: /quizzes/
+  name: Quizzes
+  icon_class: fas fa-question-circle
 
 - url: /resources/
   name: Resources
