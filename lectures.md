@@ -83,22 +83,31 @@ permalink: /lectures/
   - J-K flip-flops
   - Edge-triggered operation
 
-- **Watermarking**
-  - Motivation and applications
-  - Properties of effective watermarks
-  - Formal problem formulation
-  - Red–Green watermarking
-  - Training-time and decoding-time watermarking
-  - Threat models and attacks
-
-- **Hallucination and Factuality**
-  - Causes of hallucinations
-  - Hallucination detection benchmarks
-  - Evaluation metrics
-  - Decoding-based mitigation
-  - Post-hoc verification
-  - Self-correction
-  - Retrieval-Augmented Generation (RAG)
+- **Computer Arithmetic**
+  - Half adders
+  - Full adders
+  - Ripple-carry adders
+  - Carry propagation
+  - Delay analysis
+  - Carry-select adders
+  - Carry-lookahead adders
+  - Generate logic
+  - Propagate logic
+  - Parallel carry computation
+  - Hierarchical carry-lookahead design
+  - 
+- **Memory Circuit Design**
+  - SRAM cells
+  - SRAM arrays
+  - SRAM read operations
+  - SRAM write operations
+  - DRAM cells
+  - DRAM arrays
+  - DRAM read operations
+  - DRAM write operations
+  - Precharging
+  - Sensing
+  - DRAM refresh
 
 - **Uncertainty and Trustworthy Generation**
   - Confidence estimation and calibration
