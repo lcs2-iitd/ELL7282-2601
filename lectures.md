@@ -8,7 +8,7 @@ permalink: /lectures/
 
 ## Tentative Topics
 
-- ** Foundations of Computer Architecture**
+- **Foundations of Computer Architecture**
   - Relationship between software and hardware
   - Program execution on hardware
   - Role of instruction sets
