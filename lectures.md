@@ -108,38 +108,122 @@ permalink: /lectures/
   - Precharging
   - Sensing
   - DRAM refresh
+  - CAM organization
+  - Associative lookup
+  - CAM arrays
+  - 
 
-- **Uncertainty and Trustworthy Generation**
-  - Confidence estimation and calibration
-  - Self-knowledge in language models
-  - Semantic uncertainty
-  - Unsupported claim detection
-  - Claim-level risk estimation
-  - Abstention and deferral
-  - Risk-controlled generation
-  - Evidence grounding
-  - Auditability and oversight
-  - Grounded and governed LLM systems
-  - LLM judges, RAG, multimodal systems, and AI agents
+- **Processor Design**
+  - Instruction Fetch
+  - Operand Fetch
+  - Execute
+  - Memory Access
+  - Register Write-Back
+  - Register file
+  - Arithmetic logic unit
+  - Instruction decoding
+  - Memory-access path
+  - Branch datapath
+  - Data movement between stages
+  - Control-signal generation
+  - Datapath coordination
+  - Stage-specific control
 
-- **Interpretability**
-  - Attention and feature attribution
-  - Mechanistic interpretability
-  - Probing methods
-  - Logit Lens and Patchscopes
-  - Activation patching
-  - Neuron-level analysis
-  - Circuits and causal abstraction
-  - Polysemanticity
-  - Linear representation hypothesis
-  - Dictionary learning
-  - Transcoders and cross-coders
-  - Model diffing
-  - Activation steering
-  - Interpretability for alignment and safety
+- **Control-Unit Design**
+  - Opcode decoding
+  - Instruction-bit decoding
+  - Combinational control logic
+  - Control-signal generation
+  - Microinstructions
+  - Microprograms
+  - Microcontrol unit
+  - Internal registers
+  - Shared datapath
+  - Microassembly language
+  - Microinstruction control flow
+  - Microcode for arithmetic instructions
+  - Microcode for logical instructions
+  - Microcode for load and store instructions
+  - Microcode for branch instructions
+  - Microcode for function calls and returns
+  - Microprogram counter
+  - Microinstruction memory
+  - Microinstruction sequencing
+  - Horizontal microprogramming
+  - Vertical microprogramming
+  - Microinstruction encoding
+    
+- **Instruction Pipelining**
+  - Overlapping instruction execution
+  - Pipeline stages
+  - Pipeline registers
+  - Pipeline throughput
+  - Data hazards
+  - Read-after-write hazards
+  - Control hazards
+  - Structural hazards
+  - NOP insertion
+  - Pipeline stalls
+  - Instruction reordering
+  - Pipeline interlocks
+  - Stall and bubble insertion
+  - Data forwarding
+  - Bypassing
+  - Load-use hazards
+  - Branch penalties
+  - Hazards not eliminated by forwarding
+  - Cycles per instruction
+  - Instructions per cycle
+  - Clock frequency
+  - Stall rate
+  - Pipeline depth
+  - Pipeline depth–frequency trade-off
+ 
+- **Memory Hierarchy**
+  - Latency
+  - Capacity
+  - Area
+  - Power consumption
+  - Cost and performance trade-offs
+  - Temporal locality
+  - Spatial locality
+  - Cache hierarchy
+  - Cache blocks
+  - Cache hits
+  - Cache misses
+  - Cache lookup
+  - Direct-mapped caches
+  - Fully associative caches
+  - Set-associative caches
+  - Cache read operations
+  - Cache write operations
+  - Write-through policy
+  - Write-back policy
+  - Least Recently Used
+  - Pseudo-LRU
+  - Replacement-candidate selection
+  - Hit rate
+  - Miss rate
+  - Miss penalty
+  - Average Memory Access Time
+- **Virtual Memory**
+  - Virtual addresses
+  - Physical addresses
+  - Virtual address space
+  - Virtual-to-physical translation
+  - Page tables
+  - Pages
+  - Page-based memory management
+  - Efficient use of physical memory
 
-- **Emerging Research Directions**
-  - Open challenges in trustworthy LLMs
-  - Responsible deployment of foundation models
-  - Future directions in safe, reliable, and accountable AI
+
+
+    
+
+
+
+
+
+
+I
  
