@@ -8,14 +8,17 @@ permalink: /lectures/
 
 ## Tentative Topics
 
-- **Foundations of Large Language Models**
-  - Transformers and self-attention
-  - Pre-training and scaling
-  - Instruction fine-tuning
-  - Alignment and preference optimization
-  - Decoding strategies
+- ** Foundations of Computer Architecture**
+  - Relationship between software and hardware
+  - Program execution on hardware
+  - Role of instruction sets
+  - Instruction set architecture concepts
+  - SimpleRisc ISA
+  - Load–store architecture
+  - Instruction categories
+  - 
 
-- **Privacy in Large Language Models**
+- **Data Representation**
   - Privacy fundamentals
   - Text sanitization
   - Memorization and data extraction
