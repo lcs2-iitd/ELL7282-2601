@@ -16,21 +16,19 @@ permalink: /lectures/
   - SimpleRisc ISA
   - Load–store architecture
   - Instruction categories
-  - 
 
 - **Data Representation**
-  - Privacy fundamentals
-  - Text sanitization
-  - Memorization and data extraction
-  - Membership inference attacks
-  - Prompt and in-context learning leakage
-  - Prompt injection attacks
-  - Differential privacy
-  - Privacy-preserving in-context learning
-  - Synthetic data generation
-  - Federated learning
-  - Machine unlearning
-  - Trusted execution environments and cryptographic techniques
+  - Bits and binary logic
+  - Boolean algebra
+  - Binary number systems
+  - Unsigned integers
+  - Signed integers
+  - Integer overflow
+  - Floating-point formats
+  - Range and precision
+  - Floating-point overflow
+  - Character encodings
+  - Representation of text in binary
 
 - **Security and Robustness**
   - Adversarial attacks in continuous and discrete spaces
