@@ -63,14 +63,25 @@ permalink: /lectures/
   - Branch instruction formats
   - 32-bit machine-code representation
 
-- **Bias and Fairness**
-  - Foundations of fairness
-  - Social and algorithmic bias
-  - Fairness metrics and benchmarks
-  - Bias in pre-training, tokenization, and RLHF
-  - Debiasing techniques
-  - Limitations of current approaches
-  - Policy and governance considerations
+- **Digital Logic**
+  - Transistors as switches
+  - CMOS logic
+  - Inverters
+  - NAND gates
+  - NOR gates
+  - Multiplexers
+  - Demultiplexers
+  - Decoders
+  - Encoders
+  - State in digital circuits
+  - Clock signals
+  - Clocked circuits
+  - State storage and transfer
+  - SR latches
+  - Clocked latches
+  - D flip-flops
+  - J-K flip-flops
+  - Edge-triggered operation
 
 - **Watermarking**
   - Motivation and applications
