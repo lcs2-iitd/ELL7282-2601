@@ -30,21 +30,21 @@ permalink: /lectures/
   - Character encodings
   - Representation of text in binary
 
-- **Security and Robustness**
-  - Adversarial attacks in continuous and discrete spaces
-  - Gradient-based discrete optimization
-  - Jailbreaking techniques
-  - Transferability of adversarial attacks
-  - Safety training failures
-  - Training data poisoning
-  - Alignment faking
-  - Evaluation awareness
-  - Chain-of-thought faithfulness
-  - Indirect prompt injection
-  - Memory poisoning in agentic systems
-  - Monitoring and verification
-  - Automated red teaming
-  - Policy languages and compositional verification
+- **Assembly Language and Machine Instructions**
+  - Registers
+  - Memory
+  - Register organization
+  - Memory organization
+  - Assembly instruction syntax
+  - Arithmetic instructions
+  - Logical instructions
+  - Register operations
+  - Immediate operands
+  - Immediate-value modifiers
+  - Load instructions
+  - Store instructions
+  - Addressing modes
+  - Register–memory interaction
 
 - **Bias and Fairness**
   - Foundations of fairness
