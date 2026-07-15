@@ -45,6 +45,23 @@ permalink: /lectures/
   - Store instructions
   - Addressing modes
   - Register–memory interaction
+  - Branch instructions
+  - Conditional execution
+  - Loops
+  - Control structures in assembly
+  - Function calls
+  - Function returns
+  - Argument passing
+  - Return values
+  - Register spilling
+  - Stack organization
+  - Activation records
+  - Opcodes
+  - Instruction fields
+  - Register instruction formats
+  - Immediate instruction formats
+  - Branch instruction formats
+  - 32-bit machine-code representation
 
 - **Bias and Fairness**
   - Foundations of fairness
