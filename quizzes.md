@@ -3,4 +3,7 @@ layout: page
 title: Quizzes
 permalink: /quizzes/
 ---
-TBD
+Coming Soon. Stay Tuned.
+
+
+

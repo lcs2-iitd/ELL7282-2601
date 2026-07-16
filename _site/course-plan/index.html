@@ -13,13 +13,13 @@
   <link rel="icon" type="image/x-icon"
     href="https://raw.githubusercontent.com/lcs2-iitd/ELL881-AIL821-2401/refs/heads/main/_images/logo.png">
 
-  <!--   <title> Resources - ELL7282/ELL782 / Semester I, 2026-27 </title> -->
+  <!--   <title> Tentative Course Plan - ELL7282/ELL782 / Semester I, 2026-27 </title> -->
   <title>ELL8299/COL8383 | LCS2-IITD</title>
   <meta name="description"
-    content="Resources - Introduction to Computer Architecture / Semester I, 2026-27">
+    content="Tentative Course Plan - Introduction to Computer Architecture / Semester I, 2026-27">
 
   <link rel="stylesheet" href="/ELL7282-2601/_css/main.css">
-  <link rel="canonical" href="http://localhost:4000/ELL7282-2601/resources/">
+  <link rel="canonical" href="http://localhost:4000/ELL7282-2601/course-plan/">
   <link rel="alternate" type="application/rss+xml"
     title="Introduction to Computer Architecture / Semester I, 2026-27 - IIT Delhi" href="http://localhost:4000/ELL7282-2601 /feed.xml" />
   <link rel='stylesheet' id='open-sans-css'
@@ -135,30 +135,45 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Resources</h1>
+    <h1 class="post-title">Tentative Course Plan</h1>
   </header>
 
   <article class="post-content">
-    <!-- 
-## Exam Questions
-
-* [Quiz-1](/ELL7282-2601/static_files/exams/Quiz1.pdf) -->
-
-<h2 id="textbooks">Textbooks</h2>
-<ul>
-  <li><a href="https://www.cse.iitd.ac.in/~srsarangi/archbook/archbook.pdf" target="_blank">Basic Computer Architecture</a>, Smruti R. Sarangi</li>
-  <li><a href="/ELL7282-2601/static_files/books/carch_quantitative_approach.pdf" target="_blank">Computer Architecture: A Quantitative Approach</a>, John L. Hennessy and David A. Patterson</li>
-  <li><a href="https://archive.org/details/computer-system-architecture-morris-mano-third-edition/mode/2up" target="_blank">Computer System Architecture</a>, M. Morris Mano</li>
+    <ul>
+  <li>
+    <p><strong>Foundations of Computer Architecture</strong> – Relationship between software and hardware, Program execution on hardware, Role of instruction sets, Instruction set architecture concepts, SimpleRisc ISA, Load–store architecture, Instruction categories</p>
+  </li>
+  <li>
+    <p><strong>Data Representation</strong> – Bits and binary logic, Boolean algebra, Binary number systems, Unsigned integers, Signed integers, Integer overflow, Floating-point formats, Range and precision, Floating-point overflow, Character encodings, Representation of text in binary</p>
+  </li>
+  <li>
+    <p><strong>Assembly Language and Machine Instructions</strong> – Registers, Memory, Register organization, Memory organization, Assembly instruction syntax, Arithmetic instructions, Logical instructions, Register operations, Immediate operands, Immediate-value modifiers, Load instructions, Store instructions, Addressing modes, Register–memory interaction, Branch instructions, Conditional execution, Loops, Control structures in assembly, Function calls, Function returns, Argument passing, Return values, Register spilling, Stack organization, Activation records, Opcodes, Instruction fields, Register instruction formats, Immediate instruction formats, Branch instruction formats, 32-bit machine-code representation</p>
+  </li>
+  <li>
+    <p><strong>Digital Logic</strong> – Transistors as switches, CMOS logic, Inverters, NAND gates, NOR gates, Multiplexers, Demultiplexers, Decoders, Encoders, State in digital circuits, Clock signals, Clocked circuits, State storage and transfer, SR latches, Clocked latches, D flip-flops, J-K flip-flops, Edge-triggered operation</p>
+  </li>
+  <li>
+    <p><strong>Computer Arithmetic</strong> – Half adders, Full adders, Ripple-carry adders, Carry propagation, Delay analysis, Carry-select adders, Carry-lookahead adders, Generate logic, Propagate logic, Parallel carry computation, Hierarchical carry-lookahead design</p>
+  </li>
+  <li>
+    <p><strong>Memory Circuit Design</strong> – SRAM cells, SRAM arrays, SRAM read operations, SRAM write operations, DRAM cells, DRAM arrays, DRAM read operations, DRAM write operations, Precharging, Sensing, DRAM refresh, CAM organization, Associative lookup, CAM arrays</p>
+  </li>
+  <li>
+    <p><strong>Processor Design</strong> – Instruction Fetch, Operand Fetch, Execute, Memory Access, Register Write-Back, Register file, Arithmetic logic unit, Instruction decoding, Memory-access path, Branch datapath, Data movement between stages, Control-signal generation, Datapath coordination, Stage-specific control</p>
+  </li>
+  <li>
+    <p><strong>Control-Unit Design</strong> – Opcode decoding, Instruction-bit decoding, Combinational control logic, Control-signal generation, Microinstructions, Microprograms, Microcontrol unit, Internal registers, Shared datapath, Microassembly language, Microinstruction control flow, Microcode for arithmetic instructions, Microcode for logical instructions, Microcode for load and store instructions, Microcode for branch instructions, Microcode for function calls and returns, Microprogram counter, Microinstruction memory, Microinstruction sequencing, Horizontal microprogramming, Vertical microprogramming, Microinstruction encoding</p>
+  </li>
+  <li>
+    <p><strong>Instruction Pipelining</strong> – Overlapping instruction execution, Pipeline stages, Pipeline registers, Pipeline throughput, Data hazards, Read-after-write hazards, Control hazards, Structural hazards, NOP insertion, Pipeline stalls, Instruction reordering, Pipeline interlocks, Stall and bubble insertion, Data forwarding, Bypassing, Load-use hazards, Branch penalties, Hazards not eliminated by forwarding, Cycles per instruction, Instructions per cycle, Clock frequency, Stall rate, Pipeline depth, Pipeline depth–frequency trade-off</p>
+  </li>
+  <li>
+    <p><strong>Memory Hierarchy</strong> – Latency, Capacity, Area, Power consumption, Cost and performance trade-offs, Temporal locality, Spatial locality, Cache hierarchy, Cache blocks, Cache hits, Cache misses, Cache lookup, Direct-mapped caches, Fully associative caches, Set-associative caches, Cache read operations, Cache write operations, Write-through policy, Write-back policy, Least Recently Used, Pseudo-LRU, Replacement-candidate selection, Hit rate, Miss rate, Miss penalty, Average Memory Access Time</p>
+  </li>
+  <li>
+    <p><strong>Virtual Memory</strong> – Virtual addresses, Physical addresses, Virtual address space, Virtual-to-physical translation, Page tables, Pages, Page-based memory management, Efficient use of physical memory</p>
+  </li>
 </ul>
-
-<h2 id="related-courses-non-exhaustive">Related Courses (Non-exhaustive)</h2>
-<ul>
-  <li><a href="https://safari.ethz.ch/architecture/doku.php" target="_blank">ETH Zurich 227-2210-00L: Computer Architecture</a>, 	Onur Mutlu and S. Sadrosadati</li>
-  <li><a href="https://web.stanford.edu/class/ee282/" target="_blank">Stanford EE282: Computer Systems Architecture</a>, 	Caroline Trippel</li>
-  <li><a href="https://tree.yuantsy.com/Course2/docs/CS152/" target="_blank">UC Berkeley CS 152/252A: Computer Architecture and Engineering</a>, Christopher Fletcher</li>
-  <li><a href="https://courses.ece.cmu.edu/18742" target="_blank">CMU 18-742: Computer Architecture and Systems</a></li>
-</ul>
-
 
   </article>
 
