@@ -1,9 +1,6 @@
 ---
-layout: page
+layout: quizzes
 title: Quizzes
 permalink: /quizzes/
 ---
-Coming Soon. Stay Tuned.
-
-
-
+<!-- You can download the quizzes here. -->
