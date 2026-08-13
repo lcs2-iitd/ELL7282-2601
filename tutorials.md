@@ -3,7 +3,7 @@ layout: page
 title: Tutorials
 permalink: /tutorials/
 ---
-Coming Soon. Stay Tuned.
+* [Tutorial-1](/static_files/tutorials/Assembly_coding.pdf) (G1: Aug 13, 2026)
 
 
 
