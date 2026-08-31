@@ -4,25 +4,41 @@ layout: page
 
 {{ content }}
 
-<ul id="archive">
-  {% for quiz in site.quizzes %}
-  <li class="archiveposturl" style="background: transparent">
-    <div class="lecture-container">
-      <div class="content">
-        <span style="font-weight: bold;">{{ quiz.title }}</span><br>
-        <strong>Quiz date:</strong> {{ quiz.format_date }}<br>
-        <strong>
-          {% include lecture_links.html lecture=quiz %}
-        </strong>
+{% comment %}
+  Two kinds of quizzes live in the _quizzes collection, split by the `category`
+  front-matter field: `quiz` for the graded quizzes, anything else (or nothing)
+  for the daily quizzes.
+{% endcomment %}
+{% assign graded_quizzes = site.quizzes | where: "category", "quiz" | sort: "date" %}
 
-        {% if quiz.content != '' %}
-        <br />
-        <div class="markdown-content" style="margin-top: 3px;">
-          {{ quiz.content }}
-        </div>
-        {% endif %}
-      </div>
-    </div>
-  </li>
+{% assign daily_quizzes = "" | split: "" %}
+{% for q in site.quizzes %}
+{% unless q.category == "quiz" %}
+{% assign daily_quizzes = daily_quizzes | push: q %}
+{% endunless %}
+{% endfor %}
+{% assign daily_quizzes = daily_quizzes | sort: "date" %}
+
+<h2 class="quiz-section-heading">Quizzes</h2>
+<p class="quiz-section-note">Four graded quizzes, 5% each.</p>
+{% if graded_quizzes.size > 0 %}
+<ul id="archive">
+  {% for quiz in graded_quizzes %}
+  {% include quiz_item.html quiz=quiz badge="Quiz" badge_class="graded" %}
   {% endfor %}
 </ul>
+{% else %}
+<p>To be announced.</p>
+{% endif %}
+
+<h2 class="quiz-section-heading">Daily Quizzes</h2>
+<p class="quiz-section-note">Short in-class quizzes, 5% in total.</p>
+{% if daily_quizzes.size > 0 %}
+<ul id="archive">
+  {% for quiz in daily_quizzes %}
+  {% include quiz_item.html quiz=quiz badge="Daily" badge_class="daily" %}
+  {% endfor %}
+</ul>
+{% else %}
+<p>To be announced.</p>
+{% endif %}

@@ -1,0 +1,19 @@
+<li class="archiveposturl" style="background: transparent">
+  <div class="lecture-container">
+    <div class="content">
+      <span class="quiz-badge quiz-badge-{{ include.badge_class }}">{{ include.badge }}</span>
+      <span style="font-weight: bold;">{{ include.quiz.title }}</span><br>
+      <strong>Quiz date:</strong> {{ include.quiz.format_date }}<br>
+      <strong>
+        {% include lecture_links.html lecture=include.quiz %}
+      </strong>
+
+      {% if include.quiz.content != '' %}
+      <br />
+      <div class="markdown-content" style="margin-top: 3px;">
+        {{ include.quiz.content }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</li>

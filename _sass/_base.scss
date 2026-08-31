@@ -511,3 +511,37 @@ a.tosu {
         border-bottom: 0 !important;
     }
 }
+
+.quiz-section-heading {
+    margin-bottom: 0;
+}
+
+.quiz-section-note {
+    color: #6C7A89;
+    font-size: 90%;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.quiz-badge {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 75%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    vertical-align: 2px;
+}
+
+.quiz-badge-graded {
+    color: #fff;
+    background-color: $primary-color;
+}
+
+.quiz-badge-daily {
+    color: $primary-color;
+    background-color: $accent-color;
+}
