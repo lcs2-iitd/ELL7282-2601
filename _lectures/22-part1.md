@@ -1,0 +1,20 @@
+---
+type: lecture
+
+date: 2026-11-18T08:00:00+05:30
+
+format_date: November 18, 2026
+
+title: "22-Part1.The Memory System: Part 2"
+
+tldr: "A conceptual introduction to memory hierarchies, exploring temporal and spatial locality, cache organization, direct-mapped and associative caches, address mapping, cache replacement policies, and write-through versus write-back mechanisms."
+
+hide_from_announcments: true
+
+links:
+    - url: /static_files/ppts/22-part1.pdf
+      name: Slides (lectures 22-Part1)
+---
+<!-- Other additional contents using markdown -->
+**Suggested Readings:**
+- Chapter-11, Basic Computer Architecture
